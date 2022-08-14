@@ -1,7 +1,7 @@
 <h1 align="center">Distributed Password Cracker Using MPI and OpenMP</h1>
 
 ### Description
-Password Cracker program coded in `C++ Language` by applying `Brute Force Algorithm` and `Parallelizing` it using MPI and OpenMP.
+Password Cracker program coded in `C++ Language` by applying `Brute Force Algorithm` and `Parallelizing` it using MPI and OpenMP. You can look at detailed description [Here](https://github.com/SameetAsadullah/Distributed-Password-Cracker-Using-MPI-and-OpenMP/blob/main/Project%20Statement.pdf)
 
 ### Manual
 1) Use following command to `Compile the Code`:
