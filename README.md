@@ -45,7 +45,7 @@ Password Cracker program coded in `C++ Language` by applying `Brute Force Algori
 ### Side Notes
 1) The `/etc/shadow` file stores all the users of the pc and their respective passwords in encryped form.
 2) The encryption of their passwords are done using `SHA-512 Algorithm` in Ubuntu Linux.
-3) We can encrypt any string using the `crypt()` function from `crypt.h Library`. It requires two arguments:
+3) We can encrypt any string using the `crypt()` function from `crypt.h Library`. It returns us Salt and Encyrpted Password both in a single appended string. It requires two arguments:
     - The string to encrypt.
     - The salt used to encrypt the string.
 4) We can extract the salt used to encrypt the password from `shadow` file and then use it to encrypt all the strings obtained from brute force and compare with the password.
