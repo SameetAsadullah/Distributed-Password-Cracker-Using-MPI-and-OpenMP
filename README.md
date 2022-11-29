@@ -14,7 +14,7 @@ Password Cracker program coded in `C++ Language` by applying `Brute Force Algori
     mpic++ -fopenmp main.cpp -lcrypt -o main
     ```
 
-3) Create a file named as `machinefile` in your current working directory. 
+3) Create a file named as `machinefile` in your current working directory:
     ```
     touch machinefile
     ```
